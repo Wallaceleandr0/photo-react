@@ -4,7 +4,6 @@ header {
     padding: 0;
     background-color: transparent;
     position: fixed;
-
     background: rgba(255, 255, 255, 0.2); /* Fundo meio transparente */
     backdrop-filter: blur(60px); /* Aplica o filtro de borrão */
     list-style: none;
@@ -13,8 +12,10 @@ header {
 
 .logo {
     width: 70px;
-    margin-left: 5px;
-    padding: 1.5px;
+    margin-left: 15px;
+    padding: 10px;
+    transition: .3s ease;
+    cursor: pointer;
 }
 
 nav {
@@ -28,17 +29,18 @@ nav {
 
 ul {
     margin-right: 20px;
-    padding: 30px;
+    display: flex;
     width: 250px;
     justify-content: space-around;
 }
 
 ul a {
+    margin: auto;
     color: #fff;
     transition: .3s ease;
 }
 
-ul a:hover {
+ul a:hover, .logo:hover {
     transform: scale(1.07);
 }
 
@@ -77,10 +79,6 @@ a {
 
 @media(max-width: 820px) {
 
-    header {
-        padding-top: 20px ;
-        
-    }
 
     .hamburguer {
         display: block;
@@ -91,6 +89,7 @@ a {
     .logo-button {
         display: flex;
         justify-content: space-between;
+        align-items: center;
     }
 
     nav {
@@ -101,6 +100,9 @@ a {
         width: 100%;
     }
 
+    nav ul a {
+        width: 100%;
+    }
 
     .div-header {
         display: flex;
@@ -114,8 +116,7 @@ a {
     }
 
     .logo {
-        padding: 0;
-        font-size: 20px;
+       
     }
 
     ul {

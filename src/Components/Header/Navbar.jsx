@@ -53,7 +53,7 @@ function Navbar() {
     <header className='header'>
         <nav>
           <div className='logo-button'>
-            <img src="https://upload.wikimedia.org/wikipedia/commons/e/e8/Camera-dynamic-gradient.png" alt="logo" className='logo' />
+            <img src="logo.png" alt="logo" className='logo' />
 
             <div className='hamburguer' onClick={toggleListVisibility} style={{display: isButtonVisible ? "none" : "block"}}>
                 <div className='line-hamburguer'></div>
