@@ -1,10 +1,11 @@
 .banner {
-    background-image: url("/public/bg-top.jpg");
+    background-image: url("/public/banner-top.png");
     background-size: cover;
     background-repeat: no-repeat;
     background-position: center center;
-    height: 800px;
+    height: 850px;
     display: flex;
+    flex-direction: column;
     justify-content: center;
     align-items: center;
     background-color: black;
@@ -12,11 +13,41 @@
 }
 
 .banner h2 {
+    padding: .5px;
     font-size: 5em;
     text-align: center;
     max-width: 870px;
     color: #ffffff;
-    text-shadow: 1px 2px 12px rgba(0, 0, 0, 0.857);
+    text-shadow: 1px 2px 1px rgba(0, 0, 0, 0.303);
+}
+
+#orange {
+    color: #c48f56;
+}
+
+.banner p {
+    padding: .5px;
+    color: #fff;
+    font-size: 1.2em;
+    font-weight: 300;
+    text-align: center;
+}
+
+#a-button {
+    display: block;
+    background-color: #c48f56;
+    margin: 25px auto 0 auto;
+    padding: 15px 20px;
+    width: 240px;
+    text-align: center;
+    color: #fff;
+    font-weight: 600;
+    border-radius: 30px;
+    transition: .3s ease;
+}
+
+#a-button:hover {
+    transform: scale(1.06);
 }
 
 img {
@@ -31,7 +62,7 @@ img {
 .presentation-container img {
     display: block;
     margin: 0 auto;
-    border-radius: 5px;
+    border-radius: 50%;
     max-width: 420px;
     max-height: 420px;
 }
@@ -57,27 +88,12 @@ img {
     max-width: 450px;
 }
 
-.home-container a {
-    background-color: rgb(54, 52, 52);
-    color: #fff;
-    text-align: center;
-    max-width: 200px;
-    border-radius: 10px;
-    padding: 15px 20px;
-    display: block;
-    margin: 60px auto 30px auto;
-    transition: .3s ease;
-}
-
-.home-container a:hover {
-    transform: scale(1.07);
-}
-
 .banner-bottom {
     background-image: url("/public/bg-bottom.jpg");
     background-attachment: fixed;
+    background-repeat: no-repeat;
     background-size: cover;
-    background-position: center top;
+    background-position: left top -80%;
     height: 400px;
     align-items: center;
     display: flex;
@@ -101,7 +117,7 @@ img {
 @media(max-width: 720px) {
 
     .banner {
-        height: 500px;
+        height: 600px;
     }
 
     .banner h2 {

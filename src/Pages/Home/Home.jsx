@@ -3,7 +3,11 @@ import "./Home.css"
 function Home() {
   return (
     <div className="home-container">
-      <div className="banner"><h2>Seja bem-vindo(a)!!</h2></div>
+      <div className="banner">
+        <h2>otavio<span id="orange">souza</span></h2>
+        <p>Recordando momentos únicos através da fotografia</p>
+        <a href="#" id="a-button">Conheça o meu trabalho</a>
+      </div>
       <section className="presentation-container">
           <div className="flex-presentation">
             <img src="otavio.jpg"/>
@@ -14,7 +18,7 @@ function Home() {
               Coe, nesciunt error totam, debitis magni praesentium laborum excepturi voluptatum delectus eligendi possimus animi rerum atque officia sit sequi?</p>
             </div>
           </div>
-            <a href="#">Conheça o meu trabalho</a>
+            <a href="#" id="a-button">Conheça o meu trabalho</a>
       </section>
     <aside className="banner-bottom">
       <p>Lorem ipsum dolor sit, amet consectetur adipisicing elit. Neque nesciunt repellendus libero nulla soluta nam impedit eveniet dolorem sit pariatur, incidunt praesentium, nisi earum eius, perferendis voluptas provident cumque magnam.</p>
