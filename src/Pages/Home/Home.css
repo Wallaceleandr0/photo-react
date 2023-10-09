@@ -60,7 +60,7 @@ img {
 }
 
 .flex-presentation .bg-otavio {
-    background-image: url("/public/otavio.JPG");
+    background-image: url("/public/otavio.jpg");
     background-size: cover;
     background-repeat: no-repeat;
     border-radius: 5px;
