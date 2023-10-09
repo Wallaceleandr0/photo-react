@@ -1,5 +1,45 @@
-.contact {
-    background-color: black;
-    padding: 250px;
+.container-top {
+    height: 97px;
+    background-color: #212123;
+}
+
+.container-h1 {
+    align-items: center;
+    height: 200px;
+    display: flex;
+    justify-content: center;
+    background-color: #212123;
+    font-size: 1.2em;
+    padding: 5px;
+}
+
+h1 {
+    text-align: center;
     color: #fff;
+}
+
+.contacts {
+    display: flex;
+    max-width: 1200px;
+    gap: 30px;
+    margin: 70px auto;
+    justify-content: center;
+    flex-wrap: wrap;
+}
+
+.contacts img {
+    max-width: 45px;
+}
+
+.item-contacts {
+    align-items: center;
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+}
+
+@media(max-width: 720px) {
+    .container-top {
+        height: 78px;
+    }
 }

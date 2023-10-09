@@ -5,6 +5,7 @@
     padding: 0;
     font-family: 'Prata', serif;
     font-family: 'Raleway', sans-serif;
+    scroll-behavior: smooth;
 }
 
 a {

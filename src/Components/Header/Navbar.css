@@ -7,7 +7,7 @@ header {
     background: rgba(255, 255, 255, 0.2); /* Fundo meio transparente */
     backdrop-filter: blur(60px); /* Aplica o filtro de borrão */
     list-style: none;
-
+    z-index: 9999;
 }
 
 .logo {

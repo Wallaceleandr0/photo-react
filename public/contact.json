@@ -1,0 +1,21 @@
+[
+    {
+        "img": "mail.png",
+        "title": "E-mail",
+        "text": "Tem alguma dúvida?",
+        "contact": "email@"
+    },
+    {
+        "img": "phone.png",
+        "title": "Telefone",
+        "text": "Você pode ligar a qualquer hora",
+        "contact": "1231231"
+    },
+    {
+        "img": "wpp.png",
+        "title": "WhatsApp",
+        "text": "Me chame no WhatsApp!",
+        "contact": "212123"
+    }
+    
+]

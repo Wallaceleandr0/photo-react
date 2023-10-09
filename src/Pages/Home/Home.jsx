@@ -8,9 +8,9 @@ function Home() {
         <p>Recordando momentos únicos através da fotografia</p>
         <a href="#" id="a-button">Conheça o meu trabalho</a>
       </div>
-      <section className="presentation-container">
+      <section id="about" className="presentation-container">
           <div className="flex-presentation">
-            <img src="otavio.jpg"/>
+            <div className="bg-otavio"></div>
             <div className="text-presentation">
               <h1>HEY I'M OTAVIO SILVA</h1>
               <p>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Dignissimos iure quaerat ex earum architecto, ducimus voluptatem <br/><br/> quibusdam rerum, voluptates adipisci, praesentium fugit vitae a fugiat nemo sequi quia modi dicta.

@@ -4,8 +4,6 @@ import { BrowserRouter as Router } from 'react-router-dom'
 
 function App() {
 
-  console.log("Olá")
-
   return (
     <>
     <Router>
