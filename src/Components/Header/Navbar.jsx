@@ -65,7 +65,7 @@ function Navbar() {
             <ul style={{display: isListVisible ? "flex" : "none"}}>
                 <Link onClick={hiddenUl} to="/">Home</Link>
                 <Link onClick={hiddenUl} to="/contact">Contato</Link>
-                <Link onClick={hiddenUl} to="about">Sobre</Link>
+                <Link onClick={hiddenUl} to="/fotos">Fotos</Link>
             </ul>
         </nav>
     </header>

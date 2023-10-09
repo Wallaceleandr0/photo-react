@@ -1,0 +1,8 @@
+.fotos {
+    min-height: 1000px;
+    background-color: black;
+}
+
+.fotos p {
+    color: #fff;
+}

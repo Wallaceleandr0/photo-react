@@ -1,10 +1,11 @@
-import "./About.css"
+import "./Fotos.css"
 
 function About() {
   return (
-    <div className="about">
+    <div className="fotos">
       <div className="container-top"></div>
-      <p>About</p>
+      <div className="fotos-top"></div>
+      <p>Fotos</p>
       </div>
   )
 }

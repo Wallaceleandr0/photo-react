@@ -21,7 +21,7 @@ function Home() {
             <a href="#" id="a-button">Conheça o meu trabalho</a>
       </section>
     <aside className="banner-bottom">
-      <p>Lorem ipsum dolor sit, amet consectetur adipisicing elit. Neque nesciunt repellendus libero nulla soluta nam impedit eveniet dolorem sit pariatur, incidunt praesentium, nisi earum eius, perferendis voluptas provident cumque magnam.</p>
+      <p>"Capturar a beleza de um momento é a magia da fotografia, onde o instante se eterniza e a história se conta sem palavras."</p>
     </aside>
     </div>
   )
