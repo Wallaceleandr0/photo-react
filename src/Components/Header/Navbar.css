@@ -18,7 +18,7 @@ header {
     cursor: pointer;
 }
 
-nav {
+.header nav {
     display: flex;
     justify-content: space-between;
 } 
@@ -27,20 +27,20 @@ nav {
     max-width: 200px;
 }
 
-ul {
+.header ul {
     margin-right: 20px;
     display: flex;
     width: 250px;
     justify-content: space-around;
 }
 
-ul a {
+.header ul a {
     margin: auto;
     color: #fff;
     transition: .3s ease;
 }
 
-ul a:hover, .logo:hover {
+.header ul a:hover, .logo:hover {
     transform: scale(1.07);
 }
 
@@ -48,77 +48,77 @@ a {
     color: black;
 }
 
-.hamburguer {
+.header .hamburguer {
     display: none;
     cursor: pointer;
     transition: .3s all;
   }
   
-  .hamburguer:hover {
+.header .hamburguer:hover {
     transform: scale(1.05);
   }
   
-  .line-hamburguer {
+.header .line-hamburguer {
     width: 30px;
     height: 3px;
     margin-top: 7px;
     background-color: #fff;
   }
   
-  .hamburger:active .line-hamburger:nth-child(1) {
+.header .hamburger:active .line-hamburger:nth-child(1) {
     transform: translateY(8px) rotate(45deg);
 }
 
-.hamburger:active .line-hamburger:nth-child(2) {
+.header .hamburger:active .line-hamburger:nth-child(2) {
     transform: scaleX(0);
 }
 
-.hamburger:active .line-hamburger:nth-child(3) {
+.header .hamburger:active .line-hamburger:nth-child(3) {
     transform: translateY(-8px) rotate(-45deg);
 }
 
 @media(max-width: 820px) {
 
-    .logo {
+    .header .logo {
         width: 55px;
     }
 
-    .hamburguer {
+    .header .hamburguer {
         display: block;
         float: right;
         padding: 10px;
     }
 
-    .logo-button {
+    .header .logo-button {
         display: flex;
         justify-content: space-between;
         align-items: center;
     }
 
-    nav {
+    .header nav {
         flex-direction: column;
     }
 
-    nav ul {
+    .header nav ul {
         width: 100%;
     }
 
-    nav ul a {
+    .header nav ul a {
         width: 100%;
     }
 
-    .div-header {
+    .header .div-header {
         display: flex;
         justify-content: space-between;
         padding: 10px;
     }
 
-    .div-header p {
+    .header .div-header p {
         font-size: 30px;
         cursor: pointer;
     }
 
-    ul {
+    .header ul {
         padding: 0;
         flex-direction: column;
     }
@@ -128,7 +128,7 @@ a {
         border-bottom: 1px solid #fff;
     } */
 
-    a {
+    .header a {
         text-align: center;
         padding: 20px;
     }

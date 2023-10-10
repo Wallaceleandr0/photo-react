@@ -1,8 +1,13 @@
 .fotos {
     min-height: 1000px;
-    background-color: black;
+    background-color: #212123;
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
 }
 
-.fotos p {
-    color: #fff;
+
+
+.fotos img {
+    max-width: 400px;
 }
