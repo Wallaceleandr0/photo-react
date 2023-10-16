@@ -11,9 +11,9 @@ header {
 }
 
 .logo {
-    width: 70px;
+    width: 120px;
     margin-left: 15px;
-    padding: 10px;
+    padding: 8px;
     transition: .3s ease;
     cursor: pointer;
 }
@@ -80,7 +80,7 @@ a {
 @media(max-width: 820px) {
 
     .header .logo {
-        width: 55px;
+        width: 105px;
     }
 
     .header .hamburguer {

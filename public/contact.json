@@ -3,21 +3,21 @@
         "img": "mail.png",
         "title": "E-mail",
         "text": "Tem alguma dúvida?",
-        "contact": "email@gmail.com",
-        "href": "mailto:email@gmail.com"
+        "contact": "otavio_ctr@hotmail.com",
+        "href": "mailto:otavio_ctr@hotmail.com"
     },
     {
         "img": "phone.png",
         "title": "Telefone",
         "text": "Você pode ligar a qualquer hora",
-        "contact": "(21) 999999999",
-        "href": "tel+5521999999999"
+        "contact": "(21) 99431-9001",
+        "href": "tel+5521994319001"
     },
     {
         "img": "wpp.png",
         "title": "WhatsApp",
         "text": "Me chame no WhatsApp!",
-        "contact": "(21) 999999999",
+        "contact": "(21) 99431-9001",
         "href": "https://wa.me/5521994319001?text=Olá,%20tenho%20interesse%20em%20seu%20serviço%20de%20fotografia.%20Podemos%20conversar%20sobre%20os%20detalhes?"
     }
     
