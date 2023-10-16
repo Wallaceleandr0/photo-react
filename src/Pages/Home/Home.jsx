@@ -6,7 +6,7 @@ function Home() {
       <div className="banner">
         <h2>otavio<span id="orange">souza</span></h2>
         <p>Recordando momentos únicos através da fotografia</p>
-        <a href="#" id="a-button">Conheça o meu trabalho</a>
+        <a href="https://wa.me/5521994319001?text=Olá,%20tenho%20interesse%20em%20seu%20serviço%20de%20fotografia.%20Podemos%20conversar%20sobre%20os%20detalhes?" id="a-button" target="_blank">Conheça o meu trabalho</a>
       </div>
       <section id="about" className="presentation-container">
           <div className="flex-presentation">
@@ -18,7 +18,7 @@ function Home() {
               Coe, nesciunt error totam, debitis magni praesentium laborum excepturi voluptatum delectus eligendi possimus animi rerum atque officia sit sequi?</p>
             </div>
           </div>
-            <a href="#" id="a-button">Conheça o meu trabalho</a>
+            <a href="https://wa.me/5521994319001?text=Olá,%20tenho%20interesse%20em%20seu%20serviço%20de%20fotografia.%20Podemos%20conversar%20sobre%20os%20detalhes?" target="_blank" id="a-button">Conheça o meu trabalho</a>
       </section>
     <aside className="banner-bottom">
       <p>"Capturar a beleza de um momento é a magia da fotografia, onde o instante se eterniza e a história se conta sem palavras."</p>

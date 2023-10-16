@@ -1,4 +1,5 @@
 .fotos {
+    padding-top: 120px;
     min-height: 1000px;
     background-color: #212123;
     display: flex;
@@ -8,6 +9,16 @@
 
 
 
-.fotos img {
-    max-width: 400px;
+.photo-img {
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center center;
+    width: 400px;
+    min-height: 400px;
+}
+
+@media(max-width: 460px) {
+    .photo-img {
+        width: 100%;
+    }
 }

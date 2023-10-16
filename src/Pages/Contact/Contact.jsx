@@ -19,12 +19,12 @@ function Contact() {
         <h1>Como você pretende falar comigo?</h1>
       </div>
       <div className="contacts">
-        {contact.map((item) => (
-          <div className="item-contacts" key={item}>
+        {contact.map((item, index) => (
+          <div className="item-contacts" key={index}>
           <img src={item.img} />
           <h3>{item.text}</h3>
           <p>{item.text}</p>
-          <a>{item.contact}</a>
+          <a href={item.href} style={{fontWeight: "bold"}}>{item.contact}</a>
           </div>
         ))}
       </div>
