@@ -2,9 +2,9 @@ import "./Fotos.css"
 
 function Fotos() {
 
-  const ensaioInfantil = ["/ensaios/infantil/photo1.jpg","/ensaios/infantil/photo2.jpg","/ensaios/infantil/photo3.jpg","/ensaios/infantil/photo4.jpg","/ensaios/infantil/photo5.jpg","/ensaios/infantil/photo6.jpg","/ensaios/infantil/photo7.jpg","/ensaios/infantil/photo8.jpg","/ensaios/infantil/photo9.jpg","/ensaios/infantil/photo10.jpg","/ensaios/infantil/photo11.jpg","/ensaios/infantil/photo12.jpg"]
-  const ensaioExterno = ["/ensaios/externo/photo1.jpg","/ensaios/externo/photo2.jpg","/ensaios/externo/photo3.jpg","/ensaios/externo/photo4.jpg","/ensaios/externo/photo5.jpg","/ensaios/externo/photo6.jpg","/ensaios/externo/photo7.jpg","/ensaios/externo/photo8.jpg","/ensaios/externo/photo9.jpg"]
-  const ensaioNoivado = ["/ensaios/noivado/photo1.jpg","/ensaios/noivado/photo2.jpg","/ensaios/noivado/photo3.jpg","/ensaios/noivado/photo4.jpg","/ensaios/noivado/photo5.jpg","/ensaios/noivado/photo6.jpg","/ensaios/noivado/photo7.jpg","/ensaios/noivado/photo8.jpg","/ensaios/noivado/photo9.jpg"]
+  const ensaioInfantil = ["/ensaios/infantil/1.jpg","/ensaios/infantil/2.jpg","/ensaios/infantil/3.jpg","/ensaios/infantil/4.jpg","/ensaios/infantil/5.jpg","/ensaios/infantil/6.jpg","/ensaios/infantil/7.jpg","/ensaios/infantil/8.jpg","/ensaios/infantil/9.jpg"]
+  const ensaioExterno = ["/ensaios/externo/1.jpg","/ensaios/externo/2.jpg","/ensaios/externo/3.jpg","/ensaios/externo/4.jpg","/ensaios/externo/5.jpg","/ensaios/externo/6.jpg","/ensaios/externo/7.jpg","/ensaios/externo/8.jpg","/ensaios/externo/9.jpg"]
+  const ensaioNoivado = ["/ensaios/noivado/1.jpg","/ensaios/noivado/2.jpg","/ensaios/noivado/3.jpg","/ensaios/noivado/4.jpg","/ensaios/noivado/5.jpg","/ensaios/noivado/6.jpg","/ensaios/noivado/7.jpg","/ensaios/noivado/8.jpg","/ensaios/noivado/9.jpg"]
 
   return (
     <div className="fotos">
