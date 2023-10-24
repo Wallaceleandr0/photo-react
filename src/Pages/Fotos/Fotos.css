@@ -2,19 +2,31 @@
     padding-top: 120px;
     min-height: 1000px;
     background-color: #212123;
-    display: flex;
     justify-content: center;
     flex-wrap: wrap;
 }
 
+.fotos h2 {
+    text-align: center;
+    color: #fff;
+    font-size: 36px;
+    padding: 15px;
+}
 
+.ensaio {
+    display: flex;
+    max-width: 1200px;
+    flex-wrap: wrap;
+    margin: 0 auto;
+    justify-content: center;
+}
 
 .photo-img {
     background-size: cover;
     background-repeat: no-repeat;
     background-position: center center;
     width: 400px;
-    min-height: 400px;
+    height: 400px;
 }
 
 @media(max-width: 460px) {
