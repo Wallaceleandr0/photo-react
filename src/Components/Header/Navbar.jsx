@@ -53,7 +53,7 @@ function Navbar() {
     <header className='header'>
         <nav>
           <div className='logo-button'>
-            <a href="/"><img src="logo.png" alt="logo" className='logo' /></a>
+            <a href="/" id="a-logo"><img src="logo.png" alt="logo" className='logo' /></a>
 
             <div className='hamburguer' onClick={toggleListVisibility} style={{display: isButtonVisible ? "none" : "block"}}>
                 <div className='line-hamburguer'></div>

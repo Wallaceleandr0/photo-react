@@ -18,6 +18,10 @@ header {
     cursor: pointer;
 }
 
+#a-logo {
+    padding: 0;
+}
+
 .header nav {
     display: flex;
     justify-content: space-between;
