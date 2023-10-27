@@ -13,10 +13,8 @@ function Home() {
           <div className="flex-presentation">
             <div className="bg-otavio"></div>
             <div className="text-presentation">
-              <h1>HEY I'M OTAVIO SILVA</h1>
-              <p>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Dignissimos iure quaerat ex earum architecto, ducimus voluptatem <br/><br/> quibusdam rerum, voluptates adipisci, praesentium fugit vitae a fugiat nemo sequi quia modi dicta.
-              Quam illum temporibus commodi, vitae sapiente voluptates reprehenderit distinctio nemo earum tenetur culpa dicta neque, cum dolore. Fugit voluptas fugiat necessitatibus, a beatae distinctio harum tempora illo laborum veritatis quasi!
-              Coe, nesciunt error totam, debitis magni praesentium laborum excepturi voluptatum delectus eligendi possimus animi rerum atque officia sit sequi?</p>
+              <h1>SOBRE MIM</h1>
+              <p>Olá! Meu nome é Otavio Souza, tenho 30 anos e sou um fotógrafo apaixonado pelo que faço. Desde então, recebi todo o apoio de amigos e familiares para seguir essa carreira. Hoje, sei que não trabalho apenas com fotografias, mas com histórias, memórias, emoções e sentimentos, que procuro retratar através das lentes. Dessa forma, conto a vida de forma mais emocionante.<br></br>Ser fotógrafo é um prazer e uma responsabilidade. Pois a fotografia é muito mais que um registro, ela tem o poder de eternizar emoções, ela é uma máquina do tempo que pode nos levar de volta aos momentos mais mágicos de nossas vidas. Desse modo, Mais do que um registro fotográfico meu objetivo é criar memórias que irão travessar gerações na sua família.</p>
             </div>
           </div>
           <Link id="a-button" to="/fotos">Conheça o meu trabalho</Link>
